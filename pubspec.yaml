@@ -1,0 +1,24 @@
+name: myapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera_macos:
+    path: plugins/camera_macos
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/labels_mtsd21.txt
+    - assets/models/best_float32.tflite
